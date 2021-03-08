@@ -24,6 +24,6 @@
     return answer;
 } 
 ```   
-6.	Experience: (coding tests)[https://www.codewars.com/users/justforfun14]
+6.	Experience: [coding tests](https://www.codewars.com/users/justforfun14)
 7.	Education: higher education at BSEU
 8.	English level: approximately B2. Attended 'Business English' courses for 3 weeks.
