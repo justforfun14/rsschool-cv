@@ -1,13 +1,13 @@
 1.	Ivan Gusak
 2.	+375292672940; ivan.gusak10@gmail.com
-3.	I want to acquire new knowledges and skills in Front-End, so I can get a job at EPAM and continue developing my skills there. I like solving different puzzles and I believe that this profession's going to be really demanded in future.
+3.	I want to acquire new knowledges and skills in Front-End, so I can get a job at **EPAM** and continue developing my skills there. I like solving different puzzles and I believe that this profession's going to be really demanded in future.
 4.	Basic skills at:
-*	JS
-*	HTML
-*	CSS
-*	version control
+*JS
+*HTML
+*CSS
+*version control
 5.	Code example:
-	```javascript
+```javascript
   function fizzbuzz(n) {
     let answer = [];
     for (let i=0; i < n; i++) {
@@ -22,7 +22,8 @@
         }
     }
     return answer;
-} ```  
+} 
+```   
 6.	Experience: (coding tests)[https://www.codewars.com/users/justforfun14]
 7.	Education: higher education at BSEU
 8.	English level: approximately B2. Attended 'Business English' courses for 3 weeks.
