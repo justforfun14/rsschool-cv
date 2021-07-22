@@ -9,73 +9,107 @@
     </head>
     <body>
         <div class="wrapper">
-            <div class="photo">
-                <img
-                    src="http://mysobaka.ru/wp-content/uploads/2015/07/-%D1%80%D0%B5%D1%82%D1%80%D0%B8%D0%B2%D0%B5%D1%80-e1438276675188.jpg"
-                    alt="beauty"
-                    width="250"
-                    height="200"
-                />
-            </div>
-            <div class="whole_info">
-                <div class="name">Ivan Gusak</div>
-                <div class="contacts">
-                    <a href="tel:+375292672940">+375292672940</a>;
-                    <a href="mailto:ivan.gusak10@gmail.com?subject=Vacancy"
-                        >ivan.gusak10@gmail.com</a
-                    >
+            <div class="body-wrapper">
+                <div class="first-block">
+                    <div class="photo-name">
+                        <img
+                            class="img"
+                            src="http://mysobaka.ru/wp-content/uploads/2015/07/-%D1%80%D0%B5%D1%82%D1%80%D0%B8%D0%B2%D0%B5%D1%80-e1438276675188.jpg"
+                            alt="beauty"
+                            width="160"
+                            height="160"
+                        />
+                        <h1>Ivan Gusak</h1>
+                    </div>
+                    <div class="presentation">
+                        <h2>ABOUT ME</h2>
+                        <p>
+                            I want to acquire new knowledge and skills in
+                            Front-End, so I can get a job and continue
+                            developing my skills there.
+                        </p>
+                        <p>
+                            I like solving different puzzles and I believe that
+                            this profession's going to be really demanded in
+                            future.
+                        </p>
+                    </div>
+                    <div class="contacts">
+                        <h2>CONTACT ME</h2>
+                        <a href="tel:+375292672940">+375292672940</a>;
+                        <a href="mailto:ivan.gusak10@gmail.com?subject=Vacancy"
+                            >ivan.gusak10@gmail.com</a
+                        >
+                    </div>
+                    <div class="skills">
+                        <h2>MY SKILLS</h2>
+                        <ul>
+                            <li>JS (basic)</li>
+                            <li>HTML (basic)</li>
+                            <li>CSS (basic)</li>
+                            <li>GIT (basic)</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="presentation">
-                    I want to acquire new knowledges and skills in Front-End, so
-                    I can get a job and continue developing my skills there. I
-                    like solving different puzzles and I believe that this
-                    profession's going to be really demanded in future.
-                </div>
-                <div class="skills">
-                    Basic skills at:
-                    <ul>
-                        <li>JS</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>GIT</li>
-                    </ul>
-                </div>
-                <div class="code">
-                    Code example:
-                    <pre>
-            function fizzbuzz(n) {
-              let answer = [];
-              for (let i=0; i &lt; n; i++) {
-                  if (((i + 1) % 3 === 0) && ((i+1) % 5 === 0)) {
-                      answer[i] = "FizzBuzz"; 
-                  } else if (((i+1) % 5) === 0) {
-                      answer[i] = "Buzz"; 
-                  } else if (((i+1) % 3) === 0) {
-                      answer[i] = "Fizz";
-                  } else {
-                      answer[i] = i + 1;
+
+                <div class="second-block">
+                    <div class="code">
+                        <h2>CODE EXAMPLE</h2>
+                        <pre>
+                function fizzbuzz(n) {
+                  let answer = [];
+                  for (let i=0; i &lt; n; i++) {
+                      if (((i + 1) % 3 === 0) && ((i+1) % 5 === 0)) {
+                          answer[i] = "FizzBuzz"; 
+                      } else if (((i+1) % 5) === 0) {
+                          answer[i] = "Buzz"; 
+                      } else if (((i+1) % 3) === 0) {
+                          answer[i] = "Fizz";
+                      } else {
+                          answer[i] = i + 1;
+                      }
                   }
-              }
-              return answer;
-          } 
-  </pre
-                    >
-                </div>
-                <div class="experience">
-                    Experience:
-                    <a href="https://www.codewars.com/users/justforfun14"
-                        >coding tests</a
-                    >
-                </div>
-                <div class="education">
-                    Education: Bachelor of Economics (Belarus State Economic
-                    University)
-                </div>
-                <div class="english">
-                    English level: C1 (IELTS). Attended 'Business English'
-                    courses for 3 weeks.
+                  return answer;
+              } 
+      </pre
+                        >
+                    </div>
+                    <div class="third-block">
+                        <div class="experience">
+                            <h2>EXPERIENCE</h2>
+                            <a
+                                href="https://www.codewars.com/users/justforfun14"
+                                >coding tests</a
+                            >
+                        </div>
+                        <div class="education">
+                            <h2>EDUCATION</h2>
+                            Bachelor of Economics (Belarus State Economic
+                            University)
+                        </div>
+                        <div class="english">
+                            <h2>ENGLISH LEVEL</h2>
+                            C1 (IELTS). I Also attended 'Business English'
+                            courses for 2 weeks.
+                        </div>
+                    </div>
                 </div>
             </div>
+            <footer class="footer-wrapper">
+                <div class="github-link">
+                    <a href="https://github.com/justforfun14/"> My GitHub</a>
+                </div>
+                <div class="year">2021</div>
+                <div class="rs-link">
+                    <a href="https://rs.school/js/"
+                        ><img
+                            src="https://rs.school/images/rs_school_js.svg"
+                            alt="Logo"
+                            height="80"
+                            width="80"
+                    /></a>
+                </div>
+            </footer>
         </div>
     </body>
 </html>
