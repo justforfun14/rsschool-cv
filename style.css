@@ -4,7 +4,13 @@ body {
     background-color: rgba(0, 0, 0, 0.349);
     font-family: Tahoma, sans-serif;
     font-size: 16px;
-    color:#111;
+    color: #111;
+}
+
+h2 {
+    margin: 5px 0;
+    background-color: rgba(22, 22, 22, 0.35);
+    text-align: center;
 }
 
 .img {
@@ -12,13 +18,15 @@ body {
     box-shadow: 0 0 7px #666;
 }
 
-.photo-name, .presentation, .contacts, .skills {
+.photo-name,
+.presentation,
+.contacts {
     margin: 10px 0;
     text-align: center;
 }
 
 .photo-name {
-  text-align: center;
+    text-align: center;
 }
 
 .wrapper {
@@ -68,3 +76,22 @@ body {
     align-items: space-between;
 }
 
+.third-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.experience,
+.education,
+.english {
+    width: 40%;
+}
+
+.english {
+    margin: 15px 0;
+}
+.code {
+    padding: 0 10px;
+}
