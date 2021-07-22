@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.349);
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: #111;
+}
+
+h2 {
+    margin: 5px 0;
+    background-color: rgba(22, 22, 22, 0.35);
+    text-align: center;
+}
+
+.img {
+    border-radius: 80px;
+    box-shadow: 0 0 7px #666;
+}
+
+.photo-name,
+.presentation,
+.contacts {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.photo-name {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.body-wrapper {
+    flex: 1 0 auto;
+    display: flex;
+}
+
+.footer-wrapper {
+    background-color: rgba(221, 224, 26, 0.623);
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    max-height: 90px;
+}
+
+.github-link {
+    font-size: 20px;
+    margin: auto 10px;
+}
+
+.year {
+    font-size: 20px;
+    margin: auto 10px;
+}
+
+.rs-link {
+    margin: auto 10px;
+}
+
+.first-block {
+    display: flex;
+    width: 15%;
+    background-color: rgba(0, 0, 0, 0.35);
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.third-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.experience,
+.education,
+.english {
+    width: 40%;
+}
+
+.english {
+    margin: 15px 0;
+}
+.code {
+    padding: 0 10px;
+}
