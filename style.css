@@ -13,9 +13,26 @@ h2 {
     text-align: center;
 }
 
-.img {
-    border-radius: 80px;
+.avatar {
+    border-radius: 50%;
     box-shadow: 0 0 7px #666;
+    height: auto;
+    max-width: 80%;
+}
+
+.img {
+    height: auto;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.project {
+    text-align: center;
+}
+
+.skills-list {
+    list-style-type: square;
 }
 
 .photo-name,
@@ -45,7 +62,9 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-shrink: 0;
-    max-height: 90px;
+    max-height: 70px;
+    margin: 0;
+    padding: 0;
 }
 
 .github-link {
@@ -73,7 +92,6 @@ h2 {
 .second-block {
     display: flex;
     flex-direction: column;
-    align-items: space-between;
 }
 
 .third-block {
@@ -85,13 +103,28 @@ h2 {
 
 .experience,
 .education,
-.english {
+.english,
+.code {
     width: 40%;
+    margin: 15px 0;
+    text-align: center;
 }
 
-.english {
-    margin: 15px 0;
-}
-.code {
+.second-block {
     padding: 0 10px;
+}
+
+.projects-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    max-width: 45%;
+    margin: 20px 0;
+}
+
+.pre-code {
+    display: inline-block;
+    text-align: left;
 }
