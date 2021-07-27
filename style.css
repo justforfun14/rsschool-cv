@@ -13,6 +13,11 @@ h2 {
     text-align: center;
 }
 
+.spisok {
+  list-style-type: none;
+  padding: 0 0 0 5px;
+}
+
 .avatar {
     border-radius: 50%;
     box-shadow: 0 0 7px #666;
