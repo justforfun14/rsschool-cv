@@ -8,15 +8,15 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="wrapper">
+        <main class="wrapper">
             <div class="body-wrapper">
-                <div class="first-block">
-                    <div class="photo-name">
+                <aside class="first-block">
+                    <article class="photo-name">
                         <img class="avatar" src="beauty.jpg" alt="avatar" />
-                        <h1>Ivan Gusak</h1>
-                    </div>
+                        <h2>Ivan Gusak</h2>
+                    </article>
                     <div class="presentation">
-                        <h2>ABOUT ME</h2>
+                        <h3>ABOUT ME</h3>
                         <p>
                             I want to acquire new knowledge and skills in
                             Front-End, so I can get a job and continue
@@ -29,14 +29,20 @@
                         </p>
                     </div>
                     <div class="contacts">
-                        <h2>CONTACT ME</h2>
+                        <h3>CONTACT ME</h3>
+                        <ul class="spisok">
+                          <li>
                         <a href="tel:+375292672940">+375292672940</a>;
+                        </li>
+                        <li>
                         <a href="mailto:ivan.gusak10@gmail.com?subject=Vacancy"
                             >ivan.gusak10@gmail.com</a
                         >
+                        </li>
+</ul>
                     </div>
                     <div class="skills">
-                        <h2>MY SKILLS</h2>
+                        <h3>MY SKILLS</h3>
                         <ul class="skills-list">
                             <li>JS (basic)</li>
                             <li>HTML (basic)</li>
@@ -44,9 +50,9 @@
                             <li>GIT (basic)</li>
                         </ul>
                     </div>
-                </div>
+                </aside>
                 <div class="second-block">
-                    <h2>MY PROJECTS</h2>
+                    <h3>MY PROJECTS</h3>
                     <div class="projects-wrapper">
                         <div class="project">
                             <img
@@ -63,26 +69,26 @@
                             />
                         </div>
                     </div>
-                    <div class="third-block">
+                    <section class="third-block">
                         <div class="experience">
-                            <h2>EXPERIENCE</h2>
+                            <h3>EXPERIENCE</h3>
                             <a
                                 href="https://www.codewars.com/users/justforfun14"
                                 >coding tests</a
                             >
                         </div>
                         <div class="education">
-                            <h2>EDUCATION</h2>
+                            <h3>EDUCATION</h3>
                             Bachelor of Economics (Belarus State Economic
                             University)
                         </div>
                         <div class="english">
-                            <h2>ENGLISH LEVEL</h2>
+                            <h3>ENGLISH LEVEL</h3>
                             C1 (IELTS). I Also attended 'Business English'
                             courses for 2 weeks.
                         </div>
                         <div class="code">
-                            <h2>CODE EXAMPLE</h2>
+                            <h3>CODE EXAMPLE</h3>
                             <pre class="pre-code">
 function nthFibonacci (n) {
   let answerArr = [0 , 1];
@@ -95,7 +101,7 @@ function nthFibonacci (n) {
 </pre
                             >
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
             <footer class="footer-wrapper">
@@ -113,6 +119,6 @@ function nthFibonacci (n) {
                     /></a>
                 </div>
             </footer>
-        </div>
+        </main>
     </body>
 </html>
