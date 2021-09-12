@@ -207,6 +207,7 @@ h3 {
 .presentation {
     font-size: 16px;
     max-width: 80%;
+    margin: 5px auto;
 }
 
 iframe {
