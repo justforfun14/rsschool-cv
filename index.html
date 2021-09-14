@@ -12,7 +12,7 @@
         <script>
             hljs.initHighlightingOnLoad();
         </script>
-        <script src="../index.js"></script>
+
         <title>HTML CSS Git Basics</title>
         <link rel="stylesheet" href="style.css" />
     </head>
@@ -20,11 +20,63 @@
         <main class="wrapper">
             <div class="body-wrapper">
                 <aside class="first-block">
+                    <div class="burger-menu">
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class="menu-btn" for="menu-toggle">
+                            <span></span>
+                        </label>
+
+                        <ul class="menubox">
+                            <nav class="nav">
+                                <li>
+                                    <a class="menu-item" href="#about"
+                                        >ABOUT ME</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="menu-item" href="#contact"
+                                        >CONTACT ME</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="menu-item" href="#skills"
+                                        >MY SKILLS</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="menu-item" href="#projects"
+                                        >MY PROJECTS</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="menu-item" href="#experience"
+                                        >EXPERIENCE</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="menu-item" href="#education"
+                                        >EDUCATION</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="menu-item" href="#english"
+                                        >ENGLISH LEVEL</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="menu-item" href="#code"
+                                        >CODE EXAMPLE</a
+                                    >
+                                </li>
+                            </nav>
+                        </ul>
+                    </div>
+
                     <article class="photo-name">
                         <h2>Ivan Gusak</h2>
                         <img class="avatar" src="beauty.jpg" alt="avatar" />
                     </article>
-                    <h1>Navigation menu</h1>
+
                     <nav class="nav">
                         <ul>
                             <li><a href="#about">ABOUT ME</a></li>
@@ -55,11 +107,13 @@
                             <h3 id="contact">CONTACT ME</h3>
                             <ul class="spisok">
                                 <li>
-                                    <a href="tel:+375292672940">+375292672940</a
+                                    <a target="_blank" href="tel:+375292672940"
+                                        >+375292672940</a
                                     >;
                                 </li>
                                 <li>
                                     <a
+                                        target="_blank"
                                         href="mailto:ivan.gusak10@gmail.com?subject=Vacancy"
                                         >ivan.gusak10@gmail.com</a
                                     >
@@ -85,6 +139,7 @@
                             <h6>Technology stack: HTML, CSS, JavaScript.</h6>
                             <h6>Interactive piano</h6>
                             <a
+                                target="_blank"
                                 href=" https://rolling-scopes-school.github.io/justforfun14-JSFE2021Q1/virtual-piano/"
                             >
                                 <img class="img" src="piano.jpg" alt="piano" />
@@ -95,6 +150,7 @@
                             <h6>Technology stack: HTML, CSS.</h6>
                             <h6>Landing page</h6>
                             <a
+                                target="_blank"
                                 href="https://rolling-scopes-school.github.io/justforfun14-JSFEPRESCHOOL/museum/"
                             >
                                 <img
@@ -109,6 +165,7 @@
                             <h6>Technology stack: HTML, CSS, JavaScript.</h6>
                             <h6>Custom drumkit with some additions</h6>
                             <a
+                                target="_blank"
                                 href="https://rolling-scopes-school.github.io/justforfun14-JSFEPRESCHOOL/drumkit/"
                             >
                                 <img
@@ -123,6 +180,7 @@
                             <h6>Technology stack: HTML, CSS, JavaScript.</h6>
                             <h6>Custom videoplayer to bulid-in</h6>
                             <a
+                                target="_blank"
                                 href="https://rolling-scopes-school.github.io/justforfun14-JSFEPRESCHOOL/custom-videoplayer/"
                             >
                                 <img
@@ -190,5 +248,6 @@ function explode(s) {
                 </div>
             </footer>
         </main>
+        <script src="index.js"></script>
     </body>
 </html>
