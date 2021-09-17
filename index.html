@@ -4,100 +4,228 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+        />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+        <script>
+            hljs.initHighlightingOnLoad();
+        </script>
+
         <title>HTML CSS Git Basics</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <main class="wrapper">
             <div class="body-wrapper">
-                <div class="first-block">
+                <aside class="first-block">
+                    <div class="lineika">
+                        <button class="button-burger">
+                            <img
+                                src="./burger_icon.png"
+                                alt="menu"
+                                height="20"
+                                width="20"
+                            />
+                        </button>
+                    </div>
+                    <div class="lineika">
+                        <div class="burger-menu">
+                            <nav class="nav">
+                                <ul class="menubox transparent unvisible">
+                                    <li>
+                                        <a class="menu-item" href="#about"
+                                            >ABOUT ME</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="menu-item" href="#contact"
+                                            >CONTACT ME</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="menu-item" href="#skills"
+                                            >MY SKILLS</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="menu-item" href="#projects"
+                                            >MY PROJECTS</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="menu-item" href="#experience"
+                                            >EXPERIENCE</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="menu-item" href="#education"
+                                            >EDUCATION</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="menu-item" href="#english"
+                                            >ENGLISH LEVEL</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="menu-item" href="#code"
+                                            >CODE EXAMPLE</a
+                                        >
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
                     <article class="photo-name">
+                        <h2>Ivan Gusak</h2>
                         <img class="avatar" src="beauty.jpg" alt="avatar" />
-                        <h1>Ivan Gusak</h1>
                     </article>
+
                     <div class="presentation">
-                        <h2>ABOUT ME</h2>
-                        <p>
+                        <h3 id="about">ABOUT ME</h3>
+                        <h2>
                             I want to acquire new knowledge and skills in
                             Front-End, so I can get a job and continue
                             developing my skills there.
-                        </p>
-                        <p>
+                        </h2>
+                        <h2>
                             I like solving different puzzles and I believe that
                             this profession's going to be really demanded in
                             future.
-                        </p>
+                        </h2>
                     </div>
-                    <div class="contacts">
-                        <h2>CONTACT ME</h2>
-                        <a href="tel:+375292672940">+375292672940</a>;
-                        <a href="mailto:ivan.gusak10@gmail.com?subject=Vacancy"
-                            >ivan.gusak10@gmail.com</a
-                        >
+                    <div class="contacts-skills">
+                        <div class="contacts">
+                            <h3 id="contact">CONTACT ME</h3>
+                            <ul class="spisok">
+                                <li>
+                                    <a target="_blank" href="tel:+375292672940"
+                                        >+375292672940</a
+                                    >;
+                                </li>
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="mailto:ivan.gusak10@gmail.com?subject=Vacancy"
+                                        >ivan.gusak10@gmail.com</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <h3 id="skills">MY SKILLS</h3>
+                            <ul class="skills-list">
+                                <li>JS (basic)</li>
+                                <li>HTML (basic)</li>
+                                <li>CSS (basic)</li>
+                                <li>GIT (basic)</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="skills">
-                        <h2>MY SKILLS</h2>
-                        <ul class="skills-list">
-                            <li>JS (basic)</li>
-                            <li>HTML (basic)</li>
-                            <li>CSS (basic)</li>
-                            <li>GIT (basic)</li>
-                        </ul>
-                    </div>
-                </div>
+                </aside>
                 <div class="second-block">
-                    <h2>MY PROJECTS</h2>
+                    <h3 id="projects">MY PROJECTS</h3>
                     <div class="projects-wrapper">
                         <div class="project">
-                            <img
-                                class="img"
-                                src="piano.jpg"
-                                alt="piano_project"
-                            />
+                            <h4>Virtual piano</h4>
+                            <h6>Technology stack: HTML, CSS, JavaScript.</h6>
+                            <h6>Interactive piano</h6>
+                            <a
+                                target="_blank"
+                                href=" https://rolling-scopes-school.github.io/justforfun14-JSFE2021Q1/virtual-piano/"
+                            >
+                                <img class="img" src="piano.jpg" alt="piano" />
+                            </a>
                         </div>
                         <div class="project">
-                            <img
-                                class="img"
-                                src="foxy.jpg"
-                                alt="foxy_project"
-                            />
+                            <h4>Museum v1.0</h4>
+                            <h6>Technology stack: HTML, CSS.</h6>
+                            <h6>Landing page</h6>
+                            <a
+                                target="_blank"
+                                href="https://rolling-scopes-school.github.io/justforfun14-JSFEPRESCHOOL/museum/"
+                            >
+                                <img
+                                    class="img"
+                                    src="../rsschool-cv/museum.jpg"
+                                    alt="museum"
+                                />
+                            </a>
+                        </div>
+                        <div class="project">
+                            <h5>Drumkit</h5>
+                            <h6>Technology stack: HTML, CSS, JavaScript.</h6>
+                            <h6>Custom drumkit with some additions</h6>
+                            <a
+                                target="_blank"
+                                href="https://rolling-scopes-school.github.io/justforfun14-JSFEPRESCHOOL/drumkit/"
+                            >
+                                <img
+                                    class="img"
+                                    src="../rsschool-cv/drumkit.jpg"
+                                    alt="drumkit"
+                                />
+                            </a>
+                        </div>
+                        <div class="project">
+                            <h5>Custom videoplayer</h5>
+                            <h6>Technology stack: HTML, CSS, JavaScript.</h6>
+                            <h6>Custom videoplayer to bulid-in</h6>
+                            <a
+                                target="_blank"
+                                href="https://rolling-scopes-school.github.io/justforfun14-JSFEPRESCHOOL/custom-videoplayer/"
+                            >
+                                <img
+                                    class="img"
+                                    src="../rsschool-cv/videoplayer.jpg"
+                                    alt="videoplayer"
+                                />
+                            </a>
                         </div>
                     </div>
                     <section class="third-block">
                         <div class="experience">
-                            <h2>EXPERIENCE</h2>
+                            <h3 id="experience">EXPERIENCE</h3>
                             <a
                                 href="https://www.codewars.com/users/justforfun14"
-                                >coding tests</a
+                                >Coding tests (Codewars)</a
                             >
                         </div>
                         <div class="education">
-                            <h2>EDUCATION</h2>
+                            <h3 id="education">EDUCATION</h3>
                             Bachelor of Economics (Belarus State Economic
                             University)
                         </div>
-                        <div class="english">
-                            <h2>ENGLISH LEVEL</h2>
+                        <div id="english" class="english">
+                            <h3>ENGLISH LEVEL</h3>
                             C1 (IELTS). I Also attended 'Business English'
                             courses for 2 weeks.
                         </div>
-                        <div class="code">
-                            <h2>CODE EXAMPLE</h2>
-                            <pre class="pre-code">
-function nthFibonacci (n) {
-  let answerArr = [0 , 1];
-  for (let i = 2; i &lt; n; i++) {
-    answerArr[i] = answerArr[i-1] + answerArr[i-2];
-  } if (n == 0) {
-    return 0;
-  } return answerArr[n-1];
-}
-</pre
-                            >
-                        </div>
                     </section>
+                    <div class="code">
+                        <h3 id="code">CODE EXAMPLE</h3>
+                        <pre class="pre-code">
+                          <code class='javascript'>
+  function explode(s) {
+    let answer = [];
+    s.split('').forEach(num => {
+      answer.push(num.repeat(num))
+    })
+    return answer.join('')
+  }
+  </code>
+  </pre>
+                    </div>
+                    <div class="presentation">
+                        This could be the presentation:
+                        <a href="https://tinyurl.com/3bk67366">PRESS ME</a>
+                    </div>
                 </div>
             </div>
+
             <footer class="footer-wrapper">
                 <div class="github-link">
                     <a href="https://github.com/justforfun14/"> My GitHub</a>
@@ -106,6 +234,7 @@ function nthFibonacci (n) {
                 <div class="rs-link">
                     <a href="https://rs.school/js/"
                         ><img
+                            class="logo"
                             src="https://rs.school/images/rs_school_js.svg"
                             alt="Logo"
                             height="60"
@@ -114,5 +243,6 @@ function nthFibonacci (n) {
                 </div>
             </footer>
         </main>
+        <script src="index.js"></script>
     </body>
 </html>
